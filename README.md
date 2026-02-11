@@ -6,8 +6,6 @@
 
 A clean, well-documented Python implementation of the **Ant Colony System (ACS)** metaheuristic applied to the classic **Traveling Salesman Problem (TSP)**, featuring an interactive **Tkinter GUI** for real-time city placement and route visualization.
 
-![GUI Screenshot](https://user-images.githubusercontent.com/42654199/193112592-716dd776-03a6-4858-b995-212aadfd402c.png)
-
 ### Example: Optimized Route for 23 Cities
 
 ![Optimization Example](assets/demo_optimization.png)
