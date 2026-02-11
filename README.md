@@ -8,6 +8,10 @@ A clean, well-documented Python implementation of the **Ant Colony System (ACS)*
 
 ![GUI Screenshot](https://user-images.githubusercontent.com/42654199/193112592-716dd776-03a6-4858-b995-212aadfd402c.png)
 
+### Example: Optimized Route for 23 Cities
+
+![Optimization Example](assets/demo_optimization.png)
+
 ---
 
 ## Table of Contents
@@ -71,6 +75,7 @@ ACO-TSP/
 │   └── solve_custom_cities.py # Example: solve a custom TSP instance
 ├── tests/
 │   └── test_core.py          # Unit tests (pytest)
+├── Canevas.py                # Main entry point — launches the GUI
 ├── main.py                   # CLI entry point (GUI / demo modes)
 ├── requirements.txt
 ├── pyproject.toml
@@ -111,7 +116,7 @@ pip install -r requirements.txt
 ### Interactive GUI
 
 ```bash
-python main.py
+python Canevas.py
 ```
 
 1. **Click** anywhere on the white canvas to place cities.
@@ -124,6 +129,12 @@ python main.py
 
 ```bash
 python main.py --demo --cities 20 --seed 42
+```
+
+Or use the original entry point:
+
+```bash
+python Canevas.py
 ```
 
 This generates random cities, runs the solver, and displays a Matplotlib dashboard with the tour and convergence curve.
